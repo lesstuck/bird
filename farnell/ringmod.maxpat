@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 864.0, 200.0, 354.0, 361.0 ],
+		"rect" : [ 755.0, -314.0, 354.0, 361.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -262,7 +262,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 166.5, 115.0, 29.5, 22.0 ],
-					"text" : "+~"
+					"text" : "*~"
 				}
 
 			}
