@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 732.0, 346.0, 531.0, 463.0 ],
+		"rect" : [ 947.0, 303.0, 531.0, 463.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,113 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.0, 181.0, 104.0, 33.0 ],
+					"text" : "rm = 0 => product\nrm = 1 => sum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 86.5, 255.0, 59.0, 20.0 ],
+					"text" : "FM depth"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 86.5, 315.0, 117.0, 20.0 ],
+					"text" : "frequency of melody"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 121.5, 37.0, 47.0, 20.0 ],
+					"text" : "vposc2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 440.0, 37.0, 32.0, 20.0 ],
+					"text" : "pw"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 364.0, 37.0, 22.0, 20.0 ],
+					"text" : "bf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 275.5, 37.0, 32.0, 20.0 ],
+					"text" : "mod"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 182.5, 37.0, 31.0, 20.0 ],
+					"text" : "rm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 68.5, 37.0, 47.0, 20.0 ],
+					"text" : "vposc1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 341.0, 30.0, 30.0 ]
+					"patching_rect" : [ 77.0, 390.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 290.0, 383.0, 22.0 ],
+					"patching_rect" : [ 77.0, 350.0, 383.0, 22.0 ],
 					"text" : "vposc"
 				}
 
@@ -69,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 241.0, 302.0, 22.0 ],
+					"patching_rect" : [ 77.0, 282.0, 302.0, 22.0 ],
 					"text" : "+~"
 				}
 
@@ -81,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 201.0, 218.0, 22.0 ],
+					"patching_rect" : [ 77.0, 228.0, 218.0, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -93,7 +193,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.0, 147.0, 125.0, 22.0 ],
+					"patching_rect" : [ 77.0, 148.0, 125.0, 22.0 ],
 					"text" : "ringmod"
 				}
 
@@ -102,12 +202,12 @@
 				"box" : 				{
 					"comment" : "pw",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 441.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -115,12 +215,12 @@
 				"box" : 				{
 					"comment" : "base",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 360.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -128,12 +228,12 @@
 				"box" : 				{
 					"comment" : "mod",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 276.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -141,12 +241,12 @@
 				"box" : 				{
 					"comment" : "rm",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 183.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -154,12 +254,12 @@
 				"box" : 				{
 					"comment" : "b2",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 130.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -167,12 +267,12 @@
 				"box" : 				{
 					"comment" : "b1",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 57.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 77.0, 84.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -248,22 +348,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "ringmod.maxpat",
-				"bootpath" : "~/Documents/GitHub/bird/farnell",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vposc.maxpat",
-				"bootpath" : "~/Documents/GitHub/bird/farnell",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
